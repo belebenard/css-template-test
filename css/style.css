@@ -1,4 +1,54 @@
-body {
-	margin: 0;
-	padding: 0;
+html {
+	font-size: 16px;
+}
+@font-face {
+	font-family: "fader";
+	src: url{'fonts/WF-026510-009147-001253-3db37e90290cc07b3aba50bdd2a10396.woff'}
+}
+
+section {
+	width: 900px;
+	margin: 0 auto;
+}
+
+section > img {
+	max-width: 100%;
+}
+
+div, p, h1, h3, cite {
+	display: block;
+	max-width: 75%;
+	margin: 0 auto;
+	margin: green;
+}
+
+.categories {
+	color: #0D9BCF;
+	max-width: 640px;
+	min-width: 576px;
+}
+
+.categories > a {
+	text-transform: uppercase;
+	color: #0D9BCF;
+	font-family: "fader", sans-serif;
+	text-decoration: bold;
+
+}
+
+h1 {
+	padding-top: 28px;
+	font-family: "fader", sans-serif;
+	color: #222222;
+	font-size: 56px;
+	line-height: 64.4px;
+	max-width: 640px;
+	min-width: 576px;
+}
+
+@media print {
+	h1
+	{
+		font-size: 16pt;
+	}
 }
